@@ -201,4 +201,5 @@ This project explores deep learning approaches for cardiac MRI segmentation usin
 
 ## License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **MIT License**. 
+
