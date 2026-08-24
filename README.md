@@ -172,3 +172,33 @@ cd Deep-Learning-for-Cardiac-MRI-Segmentation
 ```bash
 pip install -r requirements.txt
 ```
+## Usage
+
+Execute the notebooks in the following order:
+
+1. **Augmentation_Nii.ipynb**
+   - Performs data augmentation on the HVSMR dataset to increase training diversity.
+
+2. **2d_U-Net.ipynb**
+   - Prepares the dataset, trains, and evaluates the baseline 2D U-Net model.
+
+3. **3d_U-Net.ipynb**
+   - Prepares the dataset, trains, and evaluates the baseline 3D U-Net model.
+
+4. **Proposed_Model.ipynb**
+
+## Conclusion
+
+This project explores deep learning approaches for cardiac MRI segmentation using the HVSMR dataset by implementing and evaluating baseline 2D U-Net, baseline 3D U-Net, and a proposed Context-Aware 2D U-Net architecture. Experimental results demonstrate the effectiveness of the 3D U-Net for volumetric segmentation, while the 2D U-Net provides a computationally efficient baseline. The proposed Context-Aware 2D U-Net is currently under active development, with ongoing efforts focused on improving training stability, contextual feature learning, and overall segmentation performance. This repository serves as a foundation for further research and development in efficient deep learning-based cardiac MRI segmentation.
+   - Prepares the dataset, trains, and evaluates the proposed Context-Aware 2D U-Net model.
+
+## Contributors
+- **Nandhini G**
+- **Giresh Aditya R**
+- **Rajasree S**
+
+**Project Guide:** Dr. Vidivelli S
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
