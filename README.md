@@ -150,3 +150,25 @@ The evaluation aimed to investigate:
 
 The experimental results obtained from these evaluations provide insights into the strengths and limitations of each segmentation approach for automated cardiac MRI analysis.
 
+## Results
+
+The 3D U-Net achieved the strongest segmentation performance in the current implementation, demonstrating stable convergence and consistently high Dice scores across the Mild and Moderate classes.
+
+The 2D U-Net served as an efficient baseline, achieving competitive performance with lower computational requirements while exhibiting some overfitting during training.
+
+The proposed Context-Aware 2D U-Net is currently under active development. The present implementation experienced training instability and did not yet achieve the desired segmentation performance. These findings have helped identify key areas for improvement, including hyperparameter optimization, context fusion strategies, and training stability. Work is ongoing to refine the architecture and improve its performance while maintaining the computational efficiency of a 2D model.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Nandhini243-g/Deep-Learning-for-Cardiac-MRI-Segmentation.git
+cd Deep-Learning-for-Cardiac-MRI-Segmentation
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
